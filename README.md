@@ -19,12 +19,15 @@ All other installations and scripts, must be then done within the Virtual Box th
 **Step 1: Installation of AnnotIEM**
 Once all system requirements are met.
 1.	Download the AnnotIEM folder from Github. This will contain 2 folders (CODES and DATABASES)
-2.  Download the formatted databases from https://osf.io/ug7t4/. In this link there are 23 files for 4 preformatted databases. DOwnload them all and save it into the DATABASES folder of AnnotIEM This includes by default the following databases:
+2. Download the formatted databases from https://osf.io/ug7t4/. In this link a archived version of four prreformatted databases are stored. 
 - NCBI 16S rRNA refseq 
 - RDP (V11.4)
 - SILVA (release 138_1)
 - GTDB (release 27.0)
-
+Download the archive AnnotIEM-Databases.tar.gz and uncompress it using the following command. The archive contains 23 files for the 4 databases. Save them all into the DATABASES folder of AnnotIEM tool. 
+```sh
+tar -zxvf AnnotIEM-databases.tar.gz
+```
 **Step 2: Installation of the Basic Local Alignment Search Tool (BLAST)**
 If QIIME2 was installed within the Virtual Box, this step can be disregarded. 
 More detailed installation instructions are provided by [NCBI].
