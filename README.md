@@ -24,10 +24,12 @@ Once all system requirements are met.
 - RDP (V11.4)
 - SILVA (release 138_1)
 - GTDB (release 27.0)
+
 Download the archive AnnotIEM-Databases.tar.gz and uncompress it using the following command. The archive contains 23 files for the 4 databases. Save them all into the DATABASES folder of AnnotIEM tool. 
 ```sh
 tar -zxvf AnnotIEM-databases.tar.gz
 ```
+
 **Step 2: Installation of the Basic Local Alignment Search Tool (BLAST)**
 If QIIME2 was installed within the Virtual Box, this step can be disregarded. 
 More detailed installation instructions are provided by [NCBI].
